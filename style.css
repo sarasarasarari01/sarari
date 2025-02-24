@@ -10,7 +10,6 @@
 
     font-family: sans-serif;
     font-size: 17px;
-    text-align: center;
   }
 
   div.main_page {
@@ -108,7 +107,6 @@
     padding: 4px 8px 4px 8px;
 
     color: #000000;
-    font-size: 100%;
   }
 
   div.content_section_text pre {
@@ -121,7 +119,6 @@
 
     background-color: #F5F6F7;
 
-    font-style: italic;
   }
 
   div.content_section_text p {
