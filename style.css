@@ -38,8 +38,9 @@
   .page_header img {
     width:184px;
   }
-  
+
   .banner {
+    margin: 20px;
     padding: 9px 6px 9px 6px;
     background-color: #E9510E;
     color: #FFFFFF;
