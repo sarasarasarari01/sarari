@@ -10,39 +10,35 @@
     font-size: 17px;
   }
 
-  div.main_page {
+  .main_page {
     position: relative;
     display: table;
-
     max-width: 800px;
     width: 90%;
-
     margin-bottom: 3px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 0px 0px 0px;
-
     border-width: 2px;
     border-color: #212738;
     border-style: solid;
-
     background-color: #FFFFFF;
   }
 
-  div.page_header {
+  .page_header {
     width: 100%;
     background-color: #F5F6F7;
   }
 
-  div.page_header span {
+  .page_header span {
     font-size: 180%;
     font-weight: bold;
   }
 
-  div.page_header img {
+  .page_header img {
   }
 
-  div.banner {
+  .banner {
     padding: 9px 6px 9px 6px;
     background-color: #E9510E;
     color: #FFFFFF;
