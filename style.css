@@ -26,29 +26,36 @@
   }
 
   .page_header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
     display: flex;
-    width: 100%;
     background-color: #F5F6F7;
   }
 
   .page_header h1 {
-    font-size: 180%;
+    margin-top: 22px;
+    margin-bottom: 14px;
+    font-size: 150%;
     font-weight: bold;
   }
 
   .page_header img {
+    margin-top: -25px;
+    margin-right: 40px;
     width:184px;
   }
 
   .banner {
-    margin: 20px;
-    padding: 9px 6px 9px 6px;
+    margin: 12px 0 20px 40px;
+    padding: 9px 50px 9px 50px;
+    width: 162px;
     background-color: #E9510E;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 112%;
+    line-height: 1;
     text-align: center;
-    width: 162px;
   }
 
   div.table_of_contents {
