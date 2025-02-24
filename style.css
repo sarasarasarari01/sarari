@@ -26,6 +26,7 @@
   }
 
   .page_header {
+    display: flex;
     width: 100%;
     background-color: #F5F6F7;
   }
