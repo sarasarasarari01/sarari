@@ -12,19 +12,17 @@ html {
 }
 
 
-.table_of_contents_item a,
-.content_section_text a {
-  text-decoration: none;
+ a {
   font-weight: bold;
 }
 
-.table_of_contents_item a:link,
-.table_of_contents_item a:visited,
-.table_of_contents_item a:active {
+a:link,
+a:visited,
+a:active {
   color: #000000;
 }
 
-.table_of_contents_item a:hover {
+a:hover {
   background-color: #000000;
   color: #FFFFFF;
 }
