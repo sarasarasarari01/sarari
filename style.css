@@ -58,7 +58,7 @@
     text-align: center;
   }
 
-  div.table_of_contents {
+  .table_of_contents {
     clear: left;
     min-width: 200px;
     margin: 3px 3px 3px 3px;
@@ -66,7 +66,7 @@
     text-align: left;
   }
 
-  div.table_of_contents_item {
+  .table_of_contents_item {
     clear: left;
     width: 100%;
     margin: 4px 0px 0px 0px;
@@ -75,22 +75,22 @@
     text-align: left;
   }
 
-  div.table_of_contents_item a {
+  .table_of_contents_item a {
     margin: 6px 0px 0px 6px;
   }
 
-  div.content_section {
+  .content_section {
     margin: 3px 3px 3px 3px;
     background-color: #FFFFFF;
     text-align: left;
   }
 
-  div.content_section_text {
+  .content_section_text {
     padding: 4px 8px 4px 8px;
     color: #000000;
   }
 
-  div.content_section_text pre {
+  .content_section_text pre {
     margin: 8px 0px 8px 0px;
     padding: 8px 8px 8px 8px;
     border-width: 1px;
@@ -99,15 +99,16 @@
     background-color: #F5F6F7;
   }
 
-  div.content_section_text p {
+  .content_section_text p {
     margin-bottom: 6px;
   }
 
-  div.content_section_text ul, div.content_section_text li {
+  .content_section_text ul,
+  .content_section_text li {
     padding: 4px 8px 4px 16px;
   }
 
-  div.section_header {
+  .section_header {
     padding: 3px 6px 3px 6px;
     background-color: #8E9CB2;
     color: #FFFFFF;
@@ -116,7 +117,7 @@
     text-align: center;
   }
 
-  div.section_header_grey {
+  .section_header_grey {
     background-color: #9F9386;
   }
 
@@ -125,31 +126,31 @@
     float: left;
   }
 
-  div.table_of_contents_item a,
-  div.content_section_text a {
+  .table_of_contents_item a,
+  .content_section_text a {
     text-decoration: none;
     font-weight: bold;
   }
 
-  div.table_of_contents_item a:link,
-  div.table_of_contents_item a:visited,
-  div.table_of_contents_item a:active {
+  .table_of_contents_item a:link,
+  .table_of_contents_item a:visited,
+  .table_of_contents_item a:active {
     color: #000000;
   }
 
-  div.table_of_contents_item a:hover {
+  .table_of_contents_item a:hover {
     background-color: #000000;
     color: #FFFFFF;
   }
 
-  div.content_section_text a:link,
-  div.content_section_text a:visited,
-   div.content_section_text a:active {
+  .content_section_text a:link,
+  .content_section_text a:visited,
+  .content_section_text a:active {
     background-color: #DCDFE6;
     color: #000000;
   }
 
-  div.content_section_text a:hover {
+  .content_section_text a:hover {
     background-color: #000000;
     color: #DCDFE6;
   }
