@@ -3,12 +3,12 @@
   padding: 0px 0px 0px 0px;
 }
 
-body,
-html {
+body {
   padding: 3px 3px 3px 3px;
   background-color: #D8DBE2;
   font-family: sans-serif;
   font-size: 17px;
+  color: #000;
 }
 
 
