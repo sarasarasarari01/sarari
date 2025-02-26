@@ -39,6 +39,23 @@ a:hover {
   color: #DCDFE6;
 }
 
+.content_section_text pre {
+  margin: 8px 0px 8px 0px;
+  padding: 8px 8px 8px 8px;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #000000;
+  background-color: #F5F6F7;
+}
+
+.content_section_text p {
+  margin-bottom: 6px;
+}
+
+.content_section_text ul,
+.content_section_text li {
+  padding: 4px 8px 4px 16px;
+}
 
 .main_page {
   position: relative;
@@ -118,24 +135,6 @@ a:hover {
 .content_section_text {
   padding: 4px 8px 4px 8px;
   color: #000000;
-}
-
-.content_section_text pre {
-  margin: 8px 0px 8px 0px;
-  padding: 8px 8px 8px 8px;
-  border-width: 1px;
-  border-style: dotted;
-  border-color: #000000;
-  background-color: #F5F6F7;
-}
-
-.content_section_text p {
-  margin-bottom: 6px;
-}
-
-.content_section_text ul,
-.content_section_text li {
-  padding: 4px 8px 4px 16px;
 }
 
 .section_header {
