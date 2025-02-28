@@ -1,39 +1,33 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>サラリーマン Page: It works</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="main_page">
-      <div class="page_header floating_element">
-        <img src="https://sarari.site/icons/ubuntu-logo.png" alt="Ubuntu Logo"
-             style="width:184px;height:146px;" class="floating_element" />
-        <div>
-          <span style="margin-top: 1.5em;" class="floating_element">
-            サラリーマン🙎 Page
-          </span>
+      
+      <div class="page_header">
+        <img src="images/atama.svg" alt="兜のシルエットイラスト。" />
+        <div class="page_header_title">
+          <h1>サラリーマン🙎 Page</h1>
+          <div class="banner">サラリーマン🙎 works!</div>
         </div>
-        <div class="banner">
-          <div id="about"></div>
-          サラリーマン🙎 works!
+      </div><!-- page_header -->
+
+      <div class="content_section">
+        <div class="content_section_text">
+          <p>こちらは、ハンドルネーム「サラリーマン🙎」のページです。サラリーマン🙎が、好き勝手に何かを書きます。そして、この要素の文字数が少ないとレイアウト崩れが起きることにやっと気づきました。そのうち、CSSを修正します。困ったものです。</p>
         </div>
 
-      </div>
-      <div class="content_section floating_element">
-        <div class="content_section_text">
-          <p>
-          こちらは、ハンドルネーム：サラリーマン🙎のページです。サラリーマン🙎が、好き勝手に何かを書きます。そして、この要素の文字数が少ないとレイアウト崩れが起きることにやっと気づきました。そのうち、CSSを修正します。困ったものです。
-          </p>
-        </div>
-        <div class="section_header">
-          <div id="changes"></div>
-                概要
-        </div>
+        <div class="section_header">概要</div>
         <div class="content_section_text">
           <pre>
 /サラリーマン🙎のページ/
 |-- 日常
-|       `--  日常の思うことあれこれを書くかもしれない
+|       `--  あれこれ
 |-- 趣味
 |       |-- 草取り
 |       |-- 本を買う 
@@ -42,30 +36,24 @@
 |-- 何かの感想文 
 |       |-- 本
 |       |-- CD 
-|       `-- 買い物
-|-- その他 
-|       `-- 何か書くかも
+│       `-- 買い物
+└-- その他 
+        `-- 何か書くかも
           </pre>
-
         </div>
 
-        <div class="section_header">
-            <div id="docroot"></div>
-               Git メモ（コマンドとか） 
-        </div>
+        <div class="section_header">Git メモ（コマンドとか） </div>
 
         <p>最近、Gitを使う機会が減ったので、古い書き方だったらすみません…。</p>
 
         <div class="content_section_text">
           <ul>
             <li>git fetch --prune</li>
+            <li>git add -p(--patch)</li>
           </ul>
         </div>
 
-        <div class="section_header">
-          <div id="bugs"></div>
-                このサイトの改善予定
-        </div>
+        <div class="section_header">このサイトの改善予定</div>
         <div class="content_section_text">
           <ul>
             <li>テーブルレイアウトをやめる</li>
@@ -73,9 +61,8 @@
           </ul>
         </div>
 
-      </div>
-    </div>
-    <div class="validator">
-    </div>
+      </div><!-- content_section -->
+
+    </div><!-- main_page -->
   </body>
 </html>
