@@ -133,28 +133,6 @@ li {
 
 }
 
-
-.table_of_contents {
-  clear: left;
-  min-width: 200px;
-  margin: 3px 3px 3px 3px;
-  background-color: #fff;
-  text-align: left;
-}
-
-.table_of_contents_item {
-  clear: left;
-  width: 100%;
-  margin: 4px 0px 0px 0px;
-  background-color: #fff;
-  color: #000000;
-  text-align: left;
-}
-
-.table_of_contents_item a {
-  margin: 6px 0px 0px 6px;
-}
-
 .content_section {
   margin: 3px 3px 3px 3px;
   background-color: #fff;
