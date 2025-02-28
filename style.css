@@ -61,8 +61,6 @@ li {
 }
 
 .main_page {
-  position: relative;
-  display: table;
   max-width: 800px;
   width: 90%;
   margin-bottom: 3px;
