@@ -179,8 +179,3 @@ li {
 .section_header_grey {
   background-color: #9F9386;
 }
-
-.floating_element {
-  position: relative;
-  float: left;
-}
