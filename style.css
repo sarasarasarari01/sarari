@@ -159,3 +159,8 @@ li {
 .introduction {
   text-align: center;
 }
+
+.content_section_text.introduction {
+  margin: 20px auto;
+  width: 82%;
+}
